@@ -9,7 +9,7 @@ on:
     branches:
       - main
       - master
-      - '**'
+      - '**' # This will trigger the workflow on any branch
     paths:
     - .github/workflows/semgrep.yml
   schedule:
