@@ -4,12 +4,12 @@ on:
     branches:
       - main
       - master
-      - '**'  # This will trigger the workflow on any branch
+      - '**'  # This will trigger the workflow on any branch.
   push:
     branches:
       - main
       - master
-      - '**' # This will trigger the workflow on any branch
+      - '**' # This will trigger the workflow on any branch.
     paths:
     - .github/workflows/semgrep.yml
   schedule:
